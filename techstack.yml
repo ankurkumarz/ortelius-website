@@ -2,7 +2,7 @@ repo_name: ankurkumarz/ortelius-website
 report_id: d4a26d3e653a958256f43ab38835ca44
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:24:46+00:00'
+timestamp: '2024-02-29T19:01:45+00:00'
 requested_by: ankurkumarz
 provider: github
 branch: main
@@ -572,6 +572,13 @@ tools:
   detection_source: themes/docsy/assets/vendor/bootstrap/package.json
   last_updated_by: Steve Taylor
   last_updated_on: 2021-02-17 21:07:17.000000000 Z
+  vulnerabilities:
+  - name: NPM IP package incorrectly identifies some private IP addresses as public
+    cve_id: CVE-2023-42282
+    cve_url: https://github.com/advisories/GHSA-78xj-cgh5-2h22
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 1.1.9
 - name: karma-browserstack-launcher
   description: A Karma plugin. Launch any browser on BrowserStack!
   package_url: https://www.npmjs.com/karma-browserstack-launcher
